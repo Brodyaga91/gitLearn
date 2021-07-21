@@ -1,6 +1,6 @@
 package Pack1;
 
-public class TestGit {
+public class ForNewBranch {
 	public static void main(String[] args) {
 		
 	}
