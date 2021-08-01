@@ -8,6 +8,7 @@ public class TestQa {
 		anyTester.sleep();
 		anyTester.flooding();
 		anyTester.testing();
+		anyTester.drinkCoffee();
 	}
 
 }

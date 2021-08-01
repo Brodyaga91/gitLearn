@@ -2,7 +2,7 @@ package Pack1;
 
 public class People {
 	public void sleep() {
-		System.out.println("ZzZzZz");
+		System.out.println("Я сплю");
 	}
 	
 	public void drink() {
@@ -11,6 +11,10 @@ public class People {
 	
 	public void run() {
 		System.out.println("валим");
+	}
+	
+	public void drinkCoffee() {
+		System.out.println("Я пью кофе");
 	}
 
 }
