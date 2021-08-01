@@ -12,18 +12,18 @@ public class Qa extends People {
 		if(third==null) {
 			if(second==null) {
 				if(first==null) {
-					System.out.println("ну и ладно, пойду кофе пить");
+					System.out.println("ok, go coffee");
 				}
 				else {
-				System.out.println("Получено 1 задание: "+first);
+				System.out.println("the task was received: "+first);
 				}
 			}
 			else {
-				System.out.println("Получено 2 задания: "+first+" и "+second);
+				System.out.println("two task was received: "+first+" and "+second);
 			}
 		}
 		else {
-			System.out.println("Получено 3 задания: "+first+" и "+second+" и "+third);
+			System.out.println("the task was received: "+first+" and "+second+" and "+third);
 		}
 	
 	}
@@ -35,7 +35,7 @@ public class Qa extends People {
 	
 	@Override
 	public void drinkCoffee() {
-		System.out.println("Я пью очень много кофе");
+		System.out.println("I drink very much coffee");
 	}
 
 
