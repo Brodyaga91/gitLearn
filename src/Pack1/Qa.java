@@ -1,8 +1,30 @@
 package Pack1;
 
 public class Qa extends People {
-	public void testing() {
-		System.out.println("Сейчас что-нибудь сломаем и будем ждать, пока поправят");
+	/**
+	 * @param first
+	 * @param second
+	 * @param third
+	 */
+	
+		 
+	public void testing(String first, String second, String third) {
+		if(third==null) {
+			if(second==null) {
+				if(first==null) {
+					System.out.println("ну и ладно, пойду кофе пить");
+				}
+				else {
+				System.out.println("Получено 1 задание: "+first);
+				}
+			}
+			else {
+				System.out.println("Получено 2 задания: "+first+" и "+second);
+			}
+		}
+		else {
+			System.out.println("Получено 3 задания: "+first+" и "+second+" и "+third);
+		}
 	
 	}
 	
@@ -11,8 +33,10 @@ public class Qa extends People {
 	
 	}
 	
+	@Override
 	public void drinkCoffee() {
 		System.out.println("Я пью очень много кофе");
 	}
+
 
 }
