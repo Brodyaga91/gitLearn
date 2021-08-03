@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Check {
 	public static void main(String[] args) {
 		Scanner scanInt=new Scanner(System.in);
-		System.out.println("Введите числа");
+		System.out.println("Р’РІРµРґРёС‚Рµ 2 С‡РёСЃР»Р°");
 		int a=scanInt.nextInt();
 		int b=scanInt.nextInt();
 		try{checkValue(a,b);
@@ -20,10 +20,10 @@ class Check {
 		   if (a==b) throw new CompareExeption();		
 			
 		   else if(a>b) {
-				System.out.println("Первое число больше второго");
+				System.out.println("РџРµСЂРІРѕРµ С‡РёСЃР»Рѕ Р±РѕР»СЊС€Рµ РІС‚РѕСЂРѕРіРѕ");
 				}
 			else  {
-				System.out.println("Второе число больше первого");
+				System.out.println("Р’С‚РѕСЂРѕРµ С‡РёСЃР»Рѕ Р±РѕР»СЊС€Рµ РїРµСЂРІРѕРіРѕ");
 			}
 			
 	}
@@ -32,6 +32,6 @@ class Check {
 
 class CompareExeption extends Exception{
 	static void ThisCompareExeption() {
-		System.err.println("Нельзя вводить одинаковые числа");
+		System.err.println("РќРµР»СЊР·СЏ РІРІРѕРґРёС‚СЊ РѕРґРёРЅР°РєРѕРІС‹Рµ С‡РёСЃР»Р°");
 	}
 	}
