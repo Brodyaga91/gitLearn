@@ -9,7 +9,6 @@ public class Maps {
 		authorList.add("Tolstoy");
 		authorList.add("Chehov");
 		authorList.add("Pushkin");
-		System.out.println(authorList.get(1));
 		HashMap<String, ArrayList> autor=new HashMap<>();
 		autor.put("Autor", authorList);
 		String a= autor.toString();
